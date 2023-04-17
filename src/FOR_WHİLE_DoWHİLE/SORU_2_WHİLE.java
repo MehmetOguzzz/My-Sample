@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SORU_2_WHİLE {
     public static void main(String[] args) {
+
         // Kullanicidan toplanmak uzere sayilar isteyin toplam 500 olur veya gecerse
         //toplami yazdirin.
         Scanner scan=new Scanner(System.in);
@@ -15,6 +16,7 @@ public class SORU_2_WHİLE {
             toplam+=sayi;
         }
         System.out.println("Sayılar Toplamı : " + toplam);
+
     }
 }
 

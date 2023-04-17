@@ -15,13 +15,17 @@ public class S02_Arrays {
         String newArr="";
 
         for (String each:wordArr
-             ) {
+        ) {
             if (each.endsWith("n") || each.endsWith("k")){
 
                 newArr=newArr + each.substring(0,1);
             }
         }
         System.out.println(newArr);//HNT
+
+
+
+
 
     }
 }
